@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.home.HomeFragment" >
+    android:background="@color/azulate"
+    tools:context=".ui.home.HomeFragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -21,8 +22,9 @@
                 android:layout_marginTop="28dp"
                 android:text="@string/tv2Info"
                 android:textSize="20sp"
-                app:layout_constraintTop_toBottomOf="@+id/textViewCiclos"
-                tools:layout_editor_absoluteX="154dp" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewCiclos" />
 
             <TextView
                 android:id="@+id/textViewCiclos"
@@ -31,34 +33,43 @@
                 android:layout_marginTop="16dp"
                 android:text="@string/tvCiclos"
                 android:textSize="30sp"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:layout_editor_absoluteX="42dp" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="36dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="72dp"
+                android:background="@drawable/web"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView5"
-                tools:layout_editor_absoluteX="141dp"
                 tools:src="@tools:sample/avatars" />
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="64dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="105dp"
+                android:layout_marginTop="76dp"
+                android:layout_marginEnd="106dp"
+                android:background="@drawable/linked"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView2"
-                tools:layout_editor_absoluteX="141dp"
                 tools:src="@tools:sample/avatars" />
 
             <ImageView
                 android:id="@+id/imageView5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
                 android:layout_marginTop="20dp"
+                android:background="@drawable/computer"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textViewInfo"
-                tools:layout_editor_absoluteX="141dp"
                 tools:src="@tools:sample/avatars" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
