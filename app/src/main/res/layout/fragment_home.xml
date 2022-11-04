@@ -32,6 +32,7 @@
                 android:layout_height="78dp"
                 android:layout_marginTop="16dp"
                 android:text="@string/tvCiclos"
+                android:textAlignment="center"
                 android:textSize="30sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
