@@ -1,4 +1,4 @@
-package com.example.ejercicionavigationdrawer2.ui.gallery;
+package com.example.ejercicionavigationdrawer2.ui.asir;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,18 +10,18 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.ejercicionavigationdrawer2.databinding.FragmentGalleryBinding;
+import com.example.ejercicionavigationdrawer2.databinding.FragmentAsirBinding;
 
-public class GalleryFragment extends Fragment {
+public class AsirFragment extends Fragment {
 
-    private FragmentGalleryBinding binding;
+    private FragmentAsirBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        GalleryViewModel galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
+        AsirViewModel galleryViewModel =
+                new ViewModelProvider(this).get(AsirViewModel.class);
 
-        binding = FragmentGalleryBinding.inflate(inflater, container, false);
+        binding = FragmentAsirBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textGallery;

@@ -1,27 +1,26 @@
-package com.example.ejercicionavigationdrawer2.ui.slideshow;
+package com.example.ejercicionavigationdrawer2.ui.daw;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.ejercicionavigationdrawer2.databinding.FragmentSlideshowBinding;
+import com.example.ejercicionavigationdrawer2.databinding.FragmentDawBinding;
 
-public class SlideshowFragment extends Fragment {
+public class DawFragment extends Fragment {
 
-    private FragmentSlideshowBinding binding;
+    private FragmentDawBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        SlideshowViewModel slideshowViewModel =
-                new ViewModelProvider(this).get(SlideshowViewModel.class);
+        DawViewModel slideshowViewModel =
+                new ViewModelProvider(this).get(DawViewModel.class);
 
-        binding = FragmentSlideshowBinding.inflate(inflater, container, false);
+        binding = FragmentDawBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         return root;

@@ -13,13 +13,18 @@
 
     <fragment
         android:id="@+id/nav_Asir"
-        android:name="com.example.ejercicionavigationdrawer2.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:name="com.example.ejercicionavigationdrawer2.ui.asir.AsirFragment"
+        android:label="@string/menu_asir"
+        tools:layout="@layout/fragment_asir" />
 
     <fragment
         android:id="@+id/nav_Daw"
-        android:name="com.example.ejercicionavigationdrawer2.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:name="com.example.ejercicionavigationdrawer2.ui.daw.DawFragment"
+        android:label="@string/menu_daw"
+        tools:layout="@layout/fragment_daw" />
+    <fragment
+        android:id="@+id/nav_Dam"
+        android:name="com.example.ejercicionavigationdrawer2.ui.dam.DamFragment"
+        android:label="@string/menu_dam"
+        tools:layout="@layout/fragment_dam" />
 </navigation>
