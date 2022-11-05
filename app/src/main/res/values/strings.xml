@@ -11,13 +11,16 @@
     <string name="menu_asir">ASIR</string>
     <string name="menu_daw">DAW</string>
     <string name="menu_dam">DAM</string>
+    <string name="menu_acercaDe">Acerca de</string>
 
     <string name="tvCiclos">Ciclos Formativos Grado Superior</string>
     <string name="tv2Info">Informática</string>
 
+
     <string name="tvAsir">CFGS ASIR</string>
     <string name="tvDam">CFGS DAM</string>
     <string name="tvDaw">CFGS DAW</string>
+    <string name="tvAcercaDe">Antonio Fernández Villa</string>
 
     <string name="tvAsirTextoLargo">El Ciclo Formativo de Grado Superior ASIR (Administración de Sistemas Informáticos en Red), te permitirá trabajar en empresas de distintos sectores dentro del departamento de informática o de procesos de datos, desempeñando funciones tales como instalación, mantenimiento, explotación y soporte del usuario informático.
 

@@ -19,6 +19,9 @@
         <action
             android:id="@+id/action_nav_home_to_nav_Dam"
             app:destination="@id/nav_Dam" />
+        <action
+            android:id="@+id/action_nav_home_to_acercaDeFragment"
+            app:destination="@id/nav_AcercaDe" />
     </fragment>
 
     <fragment
@@ -37,4 +40,9 @@
         android:name="com.example.ejercicionavigationdrawer2.ui.dam.DamFragment"
         android:label="@string/menu_dam"
         tools:layout="@layout/fragment_dam" />
+    <fragment
+        android:id="@+id/nav_AcercaDe"
+        android:name="com.example.ejercicionavigationdrawer2.ui.acercaDe.AcercaDeFragment"
+        android:label="@string/menu_acercaDe"
+        tools:layout="@layout/fragment_acerca_de" />
 </navigation>

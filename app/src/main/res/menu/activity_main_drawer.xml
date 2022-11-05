@@ -22,10 +22,15 @@
         <item
             android:id="@+id/nav_Dam"
             android:title="@string/menu_dam" />
-        <menu >
-            <group >
-                <item android:title="Item" />
-            </group>
-        </menu>
+
     </group>
+    <item android:title="@string/menu_acercaDe">
+        <menu>
+            <item
+                android:id="@+id/nav_AcercaDe"
+                android:title="@string/menu_acercaDe" />
+        </menu>
+    </item>
+
 </menu>
+
